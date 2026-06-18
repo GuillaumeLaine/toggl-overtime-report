@@ -3,3 +3,6 @@
 
 reports/
 .toggl_api_key
+
+csv/*
+!csv/example.csv
