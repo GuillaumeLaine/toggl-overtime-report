@@ -20,7 +20,7 @@ python generate_report.py [csv_file] [--weekly-target HOURS] [--output FILE]
 
 ## Getting the CSV
 
-### Option A — API (recommended)
+### Option A — API (recommended, free)
 
 1. Copy `.toggl_api_key.example` to `.toggl_api_key` and paste your Toggl API token (find it at **toggl.com/profile** → *API Token*).
 2. Run:
@@ -38,7 +38,9 @@ python fetch_report.py --start-date YYYY-MM-DD [--end-date YYYY-MM-DD] [--output
 - `--end-date` defaults to today
 - `--output` defaults to `csv/toggl_<start>_<end>.csv`
 
-### Option B — Manual export
+### Option B — Manual export (paywall)
+
+(Note that currently Toggl Tracker has this feature behind paywall!)
 
 In Toggl Track → **Reports** → **Detailed** → select date range → **Export CSV**.
 
